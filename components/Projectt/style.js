@@ -18,6 +18,10 @@ export const Content = styled.div`
   @media (max-width: 600px) {
     padding: 5px;
   }
+
+  Link {
+    text-decoration:none;
+  }
 `;
 
 export const Ul = styled.ul`

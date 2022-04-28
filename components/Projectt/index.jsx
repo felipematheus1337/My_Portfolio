@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
-
+import Link from 'next/link'
 export default function Projectt() {
   const [itemsApi, setItemsApi] = useState([])
 
@@ -35,6 +35,7 @@ export default function Projectt() {
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>
+            <h5>Acessar:</h5> <Link key={item.id} href={item.url}>{item.name}</Link>
           </Li>
         ))}
        </Ul>
