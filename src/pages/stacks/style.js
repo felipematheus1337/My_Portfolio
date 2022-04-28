@@ -9,7 +9,7 @@ justify-content: space-between;
 `;
 
 
-export default styled;
+
 
 
 

@@ -58,4 +58,3 @@ export const Url = styled.span``;
 
 export const Created_at = styled.span``;
 
-export default styled;
