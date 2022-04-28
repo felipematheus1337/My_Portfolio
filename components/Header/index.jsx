@@ -40,7 +40,7 @@ export default function Header() {
             <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
           </Link>
 
-          <Link href="stacks">
+          <Link href="stack">
             <Ancora className={activeLink('stacks')} onClick={showSiderbar}>Stacks</Ancora>
           </Link>
         </NavLinks>

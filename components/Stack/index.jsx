@@ -1,18 +1,18 @@
 import React from 'react'
 import { Backend, Container, Content, Database, Frontend, Icones } from './style'
-import reactIcone from "../../../public/icones/react.svg";
-import cssIcone from "../../../public/icones/css-3.svg";
-import jsIcone from "../../../public/icones/javascript.svg";
-import javaIcone from "../../../public/icones/java.svg";
-import mysqlIcone from "../../../public/icones/mysql-icon.svg";
-import nodeIcone from "../../../public/icones/nodejs.svg";
-import mongoIcone from "../../../public/icones/mongodb.svg";
-import htmlIcone from "../../../public/icones/html-5.svg";
-import springIcone from "../../../public/icones/spring-icon.svg";
-import awsIcone from "../../../public/icones/aws.svg";
+import reactIcone from "../../public/icones/react.svg";
+import cssIcone from "../../public/icones/css-3.svg";
+import jsIcone from "../../public/icones/javascript.svg";
+import javaIcone from "../../public/icones/java.svg";
+import mysqlIcone from "../../public/icones/mysql-icon.svg";
+import nodeIcone from "../../public/icones/nodejs.svg";
+import mongoIcone from "../../public/icones/mongodb.svg";
+import htmlIcone from "../../public/icones/html-5.svg";
+import springIcone from "../../public/icones/spring-icon.svg";
+import awsIcone from "../../public/icones/aws.svg";
 import Image from 'next/image'
 
-export default function Stacks() {
+export default function Stack() {
   return (
    
       <Icones>
