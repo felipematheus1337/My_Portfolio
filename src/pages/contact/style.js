@@ -21,3 +21,7 @@ export const Content = styled.div`
     padding: 10px;
   }
 `;
+
+
+
+export default styled;
