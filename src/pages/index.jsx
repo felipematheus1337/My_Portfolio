@@ -12,7 +12,7 @@ export default function Home() {
         <Function>FullStack Developer</Function>
         <Intro>Atualmente no 6° período do curso de Ciência da computação, 
           da Universidade Veiga de Almeida. Tenho experiência em desenvolvimento Web
-          com as seguintes <a href="/stacks" style={{textDecoration:"none",color:"blue"}}>stacks</a>
+          com as seguintes <Link href="stacks">stacks</Link>
         </Intro>
        
       
