@@ -35,7 +35,7 @@ export default function Projectt() {
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>
-            <h5>Acessar:</h5> <Link key={item.id} href={item.url}>{item.name}</Link>
+            <h5>Acessar:</h5> <Link key={item.id} href={item.html_url}>{item.name}</Link>
           </Li>
         ))}
        </Ul>
